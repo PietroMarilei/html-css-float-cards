@@ -25,6 +25,7 @@
     Clear: both
 }
 
+
 /* #end region utilities  */
 /* perché non funziona la sezione collassabile? */
 
@@ -43,14 +44,16 @@ header>p {
 
 /* end header */
 /* ----------------------------- */
+
+
+/* main section */
 .row {
     padding: 1rem 0 1rem 0;
 
 }
 
-/* main section */
 .box {
-    background-color: rgb(138, 50, 50);
+    background-color: rgb(0, 0, 0);
     float: left;
     padding: 0 0.5rem;
     background-clip: content-box;
@@ -68,11 +71,19 @@ header>p {
     float: left;
     color: white;
     padding-left: 1rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .person-data>* {
     padding-top: 0.3rem;
     padding-bottom: 0.1rem;
 }
+
+.person-data a {
+    color: var(--light-blue);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* End main Section */
