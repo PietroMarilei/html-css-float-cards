@@ -43,6 +43,10 @@ header>p {
 
 /* end header */
 /* ----------------------------- */
+.row {
+    padding: 1rem 0 1rem 0;
+
+}
 
 /* main section */
 .box {
@@ -61,9 +65,14 @@ header>p {
 }
 
 .person-data {
-    display: inline-block;
+    float: left;
     color: white;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
 
-
+.person-data>* {
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
 }
