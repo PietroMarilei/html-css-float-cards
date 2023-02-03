@@ -26,10 +26,10 @@
 }
 
 
-/* #end region utilities  */
-/* perché non funziona la sezione collassabile? */
+/* #endregion utilities  */
+/* perché non funziona la sezione collassabile? perché endregion va scritto attaccato */
 
-/* header */
+/* #region header */
 
 header>h1 {
     color: var(--pink);
@@ -42,11 +42,11 @@ header>p {
     text-align: center;
 }
 
-/* end header */
+/* endregion header */
 /* ----------------------------- */
 
 
-/* main section */
+/* #region main section */
 .row {
     padding: 1rem 0 1rem 0;
 
@@ -87,7 +87,7 @@ header>p {
     font-size: 1rem;
 }
 
-/* End main Section */
+/* #endregion main Section */
 
 /* footer */
 footer {
